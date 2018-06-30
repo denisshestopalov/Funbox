@@ -1,0 +1,49 @@
+#map {
+    height: 90vh;
+    width: 72%;
+    margin: 2px;
+    float: left;
+    border: 1px solid black;
+    z-index: 1;
+
+}
+#wrapper {
+    height: 90vh;
+    width: 25%;
+    margin: 2px;
+    float: left;
+    text-overflow: ellipsis;
+
+}
+.td {
+    width: 90%;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tdbutton {
+    text-align: left;
+}
+#clear {
+    clear: left;
+}
+#list {
+    height: 70%;
+    width: 85%;
+    padding-left: 5%;
+    list-style-type: none;
+}
+#point {
+    width: 98%;
+    border: 1px solid black;
+}
+#table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}

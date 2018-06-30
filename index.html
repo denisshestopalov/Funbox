@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"> </script>
+      <script type="text/javascript" src="map.js"></script>
+
+    </head>
+
+    <link rel=stylesheet href="main.css">
+
+    <body>
+        <div id="wrapper">
+          <form action="" method="post" name="form" onsubmit="return addPoint(this)">
+              <input size="10" name="point" id="point" type="text" value="Новая точка маршрута" >
+          </form>
+            <br>
+          <div id="tablediv">
+              <table id="table">
+
+              </table>
+          </div>
+        </div>
+        <div id="map">
+
+
+
+        </div>
+        <div id="clear"> </div>
+
+    </body>
+
+</html>
